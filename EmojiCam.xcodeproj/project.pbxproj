@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4ED133AB2C8C516900BEE3A8 /* EmojiCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED133AA2C8C516900BEE3A8 /* EmojiCamApp.swift */; };
-		4ED133AD2C8C516900BEE3A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED133AC2C8C516900BEE3A8 /* ContentView.swift */; };
 		4ED133AF2C8C516A00BEE3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED133AE2C8C516A00BEE3A8 /* Assets.xcassets */; };
 		4ED133B22C8C516A00BEE3A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED133B12C8C516A00BEE3A8 /* Preview Assets.xcassets */; };
+		4ED133BA2C8C554E00BEE3A8 /* InstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED133B92C8C554E00BEE3A8 /* InstallView.swift */; };
+		4ED133BC2C8C559900BEE3A8 /* InstallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED133BB2C8C559900BEE3A8 /* InstallViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4ED133A72C8C516900BEE3A8 /* EmojiCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED133AA2C8C516900BEE3A8 /* EmojiCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCamApp.swift; sourceTree = "<group>"; };
-		4ED133AC2C8C516900BEE3A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4ED133AE2C8C516A00BEE3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ED133B12C8C516A00BEE3A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4ED133B32C8C516A00BEE3A8 /* EmojiCam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmojiCam.entitlements; sourceTree = "<group>"; };
+		4ED133B92C8C554E00BEE3A8 /* InstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallView.swift; sourceTree = "<group>"; };
+		4ED133BB2C8C559900BEE3A8 /* InstallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				4ED133AA2C8C516900BEE3A8 /* EmojiCamApp.swift */,
-				4ED133AC2C8C516900BEE3A8 /* ContentView.swift */,
 				4ED133AE2C8C516A00BEE3A8 /* Assets.xcassets */,
 				4ED133B32C8C516A00BEE3A8 /* EmojiCam.entitlements */,
 				4ED133B02C8C516A00BEE3A8 /* Preview Content */,
+				4ED133B92C8C554E00BEE3A8 /* InstallView.swift */,
+				4ED133BB2C8C559900BEE3A8 /* InstallViewModel.swift */,
 			);
 			path = EmojiCam;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED133AD2C8C516900BEE3A8 /* ContentView.swift in Sources */,
+				4ED133BC2C8C559900BEE3A8 /* InstallViewModel.swift in Sources */,
+				4ED133BA2C8C554E00BEE3A8 /* InstallView.swift in Sources */,
 				4ED133AB2C8C516900BEE3A8 /* EmojiCamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
